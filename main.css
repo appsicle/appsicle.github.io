@@ -2,6 +2,7 @@
     height: 100vh;
 }
 
+
 /* nav */
 
 nav {
@@ -67,8 +68,9 @@ nav {
     margin-top: 40px;
     text-align: center;
     font-family: applegothic, sans-serif;
-    font-size: 31px;
+    font-size: 2rem;
     color: #222222;
+    padding: 0 30px;
 }
 
 /* colors */
@@ -81,17 +83,6 @@ nav {
     color: #dddddd;
 }
 
-/* queries */
-
-@media (max-width: 750px) {
-    .nav-links {
-        display: none;
-    }
-    .mobile-menu {
-        display: block;
-    }
-}
-
 /* etc */
 
 body {
@@ -101,4 +92,15 @@ body {
 
 * {
     box-sizing: border-box;
+}
+
+/* queries */
+
+@media screen and (max-width: 750px) { 
+    .nav-links {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+    }
 }
