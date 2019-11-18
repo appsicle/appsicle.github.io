@@ -1,0 +1,104 @@
+.first-page {
+    height: 100vh;
+}
+
+/* nav */
+
+nav {
+    height: 140px;
+    padding: 0 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    margin-top: 40px;
+}
+
+.name {
+    font-size: 30px;
+    font-family: Big Caslon, sans-serif;
+}
+
+.role {
+    font-size: 15px;
+    font-family: Nanum Myeongjo, sans-serif;
+}
+
+.nav-links {
+    float: right;
+    display: flex;
+}
+
+.nav-links a {
+    margin: 0 20px;
+    margin-top: 40px;
+    font-size: 15px;
+    color: #222222;
+    text-decoration: none;
+    font-family: "Sinhala Sangam MN", sans-serif;
+}
+
+.mobile-menu {
+    display: none;
+    width: 40px;
+    float: right;
+    margin-top: 40px;
+}
+
+/* main */
+
+.man-svg {
+    height: calc(70vh - 140px);
+    /* vh - nav */
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.credit {
+    text-align: center;
+    color: rgba(0, 0, 0, .34);
+    font-size: 14px;
+}
+
+.bottom-text {
+    margin-top: 40px;
+    text-align: center;
+    font-family: applegothic, sans-serif;
+    font-size: 31px;
+    color: #222222;
+}
+
+/* colors */
+
+.black {
+    color: #222222;
+}
+
+.gray {
+    color: #dddddd;
+}
+
+/* queries */
+
+@media (max-width: 750px) {
+    .nav-links {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+    }
+}
+
+/* etc */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
