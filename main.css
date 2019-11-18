@@ -1,7 +1,21 @@
+@font-face {
+    font-family: "Big Caslon";
+    src: url("fonts/BigCaslonRegular.otf") format("otf")
+}
+
+@font-face {
+    font-family: "Lucida Grande";
+    src: url("fonts/LucidaGrande.ttf") format("ttf")
+}
+
+@font-face {
+    font-family: "Nanum Myeongjo";
+    src: url("fonts/NanumMyeongjo-Regular.ttf") format("ttf")
+}
+
 .first-page {
     height: 100vh;
 }
-
 
 /* nav */
 
@@ -19,12 +33,12 @@ nav {
 
 .name {
     font-size: 30px;
-    font-family: Big Caslon, sans-serif;
+    font-family: "Big Caslon";
 }
 
 .role {
     font-size: 15px;
-    font-family: Nanum Myeongjo, sans-serif;
+    font-family: "Nanum Myeongjo", sans-serif;
 }
 
 .nav-links {
@@ -62,12 +76,13 @@ nav {
     text-align: center;
     color: rgba(0, 0, 0, .34);
     font-size: 14px;
+    font-family: "Lucida Grande";
 }
 
 .bottom-text {
     margin-top: 40px;
     text-align: center;
-    font-family: applegothic, sans-serif;
+    font-family: "applegothic", sans-serif;
     font-size: 2rem;
     color: #222222;
     padding: 0 30px;
@@ -96,7 +111,7 @@ body {
 
 /* queries */
 
-@media screen and (max-width: 750px) { 
+@media screen and (max-width: 750px) {
     .nav-links {
         display: none;
     }
