@@ -39,6 +39,7 @@ nav {
 .role {
     font-size: 15px;
     font-family: "Nanum Myeongjo", sans-serif;
+    color: rgba(0, 0, 0, .34);
 }
 
 .nav-links {
@@ -59,13 +60,13 @@ nav {
     display: none;
     width: 40px;
     float: right;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 /* main */
 
 .man-svg {
-    height: calc(70vh - 140px);
+    height: calc(65vh - 140px);
     /* vh - nav */
     width: auto;
     margin: 0 auto;
@@ -74,16 +75,16 @@ nav {
 
 .credit {
     text-align: center;
-    color: rgba(0, 0, 0, .34);
     font-size: 14px;
     font-family: "Lucida Grande";
+    color: rgba(0,0,0,.34);
 }
 
 .bottom-text {
     margin-top: 40px;
     text-align: center;
     font-family: "applegothic", sans-serif;
-    font-size: 2rem;
+    font-size: 30px;
     color: #222222;
     padding: 0 30px;
 }
@@ -117,5 +118,14 @@ body {
     }
     .mobile-menu {
         display: block;
+    }
+    .name{
+        font-size: 24px;
+    }
+    .role{
+        font-size: 12px;
+    }
+    .bottom-text{
+        font-size: 24px;
     }
 }
