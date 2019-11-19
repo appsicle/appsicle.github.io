@@ -85,6 +85,7 @@ nav {
     width: auto;
     margin: 0 auto;
     display: block;
+    
 }
 
 .credit {
@@ -141,5 +142,55 @@ body {
     }
     .bottom-text {
         font-size: 24px;
+    }
+}
+
+
+.man-svg, .credit, .bottom-text{
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity:1;
+        transform: none;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity:1;
+        transform: none;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity:1;
+        transform: none;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity:1;
+        transform: none;
     }
 }
