@@ -14,7 +14,22 @@
 }
 
 .first-page {
-    height: 100vh;
+    height: calc(100vh - 140px);
+    /* display: none; */
+}
+
+.about-page{
+    height: calc(100vh - 140px);
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 40px;
+    display: none;
+}
+
+.about-text{
+    /* text-align: center; */
+    margin: 0;
+    
 }
 
 /* nav */
@@ -32,14 +47,15 @@ nav {
 }
 
 .name {
-    font-size: 30px;
-    font-family: "Big Caslon";
+    font-size: 36px;
+    font-family: "Gupter";
+    font-weight: bolder;
 }
 
 .role {
     font-size: 15px;
-    font-family: "Nanum Myeongjo", sans-serif;
-    color: rgba(0, 0, 0, .34);
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
 }
 
 .nav-links {
@@ -98,7 +114,7 @@ nav {
 .bottom-text {
     margin-top: 40px;
     text-align: center;
-    font-family: "applegothic", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 30px;
     color: #222222;
     padding: 0 30px;
@@ -111,7 +127,7 @@ nav {
 }
 
 .gray {
-    color: #dddddd;
+    color: #656565;
 }
 
 /* etc */
@@ -145,6 +161,7 @@ body {
     }
 }
 
+/* animations */
 
 .man-svg, .credit, .bottom-text{
     animation: fadein 3s;
@@ -152,7 +169,6 @@ body {
     -webkit-animation: fadein 3s; /* Safari and Chrome */
     -o-animation: fadein 3s; /* Opera */
 }
-
 
 @keyframes fadein {
     from {
